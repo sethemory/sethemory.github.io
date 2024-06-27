@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{{ '/assets/css/landing.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/sidebar.css' | relative_url }}">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&display=swap">
+
+  <title>{{ page.title }}</title>
+</head>
+<body>
+  <div class="sidebar">
+    <h1>Seth Emory</h1>
+    <ul>
+      <li><a href="{{ '/' | relative_url }}">Home</a></li>
+      <li><a href="{{ '/projects/' | relative_url }}">Projects</a></li>
+      <li><a href="{{ '/blog/' | relative_url }}">Blog</a></li>
+      <li><a href="{{ '/about/' | relative_url }}">About</a></li>
+      <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
+    </ul>
+  </div>
+  <div class="main-content">
+    <!-- <h1>{{ page.title }}</h1> -->
+    <p>This site is a place for me to showcase different things like projects I've worked on,</p>
+    <p>my resume and work history, and random things like hobbies or interests I'm persuing as well.</p>
+    <p>Feel free to look around at some of my stuff.<span class="cursor"></span></p>
+    
+    <div class="feature-boxes">
+        <a href="{{ '/projects/' | relative_url }}" class="feature-box">Projects</a>
+        <a href="{{ '/blog/' | relative_url }}" class="feature-box">Blog</a>
+        <a href="{{ '/contact-me/' | relative_url }}" class="feature-box">Contact Me</a>
+    </div>
+  </div>
+</body>
+</html>
