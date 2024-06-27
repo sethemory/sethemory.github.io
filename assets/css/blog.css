@@ -54,18 +54,7 @@ body {
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
-    .sidebar {
-      position: static; /* Sidebar becomes part of the flow on small screens */
-      width: 100%; /* Full width */
-      height: auto; /* Adjust height automatically */
-    }
-  
     .main-content {
-      margin-left: 0; /* Remove margin for the main content */
-      padding: 10px;
-    }
-  
-    .post-summary {
-      padding: 10px; /* Reduce padding */
+      margin-top: 15%;
     }
   }

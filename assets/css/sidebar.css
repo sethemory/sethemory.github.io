@@ -34,11 +34,12 @@
     width: 100%;
 }
 
+/* Responsive adjustments */
 @media (max-width: 768px) {
     .sidebar {
-      position: static; /* Remove fixed positioning */
+      position: fixed; /* Remove fixed positioning */
       width: 100%; /* Full width */
-      height: auto; /* Auto height */
+      height: 10%; /* Auto height */
       display: flex; /* Make sidebar horizontal */
       flex-direction: row; /* Align items in a row */
       justify-content: space-around; /* Distribute space around items */
