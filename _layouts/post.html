@@ -16,6 +16,7 @@
     <ul>
       <li><a href="{{ '/' | relative_url }}">Home</a></li>
       <li><a href="{{ '/projects/' | relative_url }}">Projects</a></li>
+      <li><a href="{{ '/work/' | relative_url }}">Work</a></li>
       <li><a href="{{ '/blog/' | relative_url }}">Blog</a></li>
       <li><a href="{{ '/about/' | relative_url }}">About</a></li>
       <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
@@ -24,7 +25,7 @@
   <div class="main-content">
     <div class="post-header">
       <h1 class="post-title">{{ page.title }}</h1>
-      <p class="post-meta">{{ page.date | date: "%B %d, %Y" }} | Filed under: {{ page.categories | join: ", " }}</p>
+      <p class="post-meta">{{ page.date | date: "%B %d, %Y" }} | Filed under: {{ page.categories | join: ", " }}<span class="cursor"></span></p>
     </div>
     <hr>
     <div class="content">

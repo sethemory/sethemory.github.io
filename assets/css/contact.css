@@ -1,0 +1,87 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    font-family: 'IBM Plex Mono', monospace;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.contact-container {
+    color: #4ee940;
+    flex: 1;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 250px;
+}
+
+.contact-info p,
+.social-links a {
+    margin: 10px 0;
+    font-size: 16px;
+    text-align: center;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+}
+
+.social-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.social-links a,
+.email {
+    text-decoration: none;
+    color: #ffa844;
+}
+
+.social-links a:hover,
+.email:hover {
+    color: #ac3c07;
+}
+
+.email {
+    text-decoration: underline;
+}
+
+.contact-container .contact-title {
+    text-align: center;
+    /* Center the title if not already centered */
+    margin-bottom: 0.5em;
+    /* Reduce margin below the title for tighter spacing with the divider */
+}
+
+.title-divider {
+    border: dashed 1px white;
+    height: 1px;
+    width: 35%;
+    margin-top: 0%;
+}
+
+.cursor {
+    display: inline-block;
+    width: 10px;
+    height: 20px;
+    background-color: #ffa844;
+    margin-left: 5px;
+    animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+
+    0%,
+    50% {
+        opacity: 1;
+    }
+
+    50.1%,
+    100% {
+        opacity: 0;
+    }
+}
