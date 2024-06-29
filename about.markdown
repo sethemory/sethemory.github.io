@@ -2,7 +2,7 @@
 layout: about
 title: Seth Emory's Site | About Me
 permalink: /about/
-profile_image: \assets\images\me.jpg
+profile_image: \assets\images\me.JPG
 ---
 
 <h3>Welcome! I'm Seth Emory.</h3>
