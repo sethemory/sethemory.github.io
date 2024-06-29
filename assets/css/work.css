@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    font-family: 'IBM Plex Mono', monospace;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: #4ee940;
+}
+
+.work-container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    margin-left: 350px;
+    margin-top: 0%;
+}
+
+.job-entry {
+    margin-bottom: 40px;
+    padding: 20px;
+    border-left: 4px solid #4ee940;
+    border-right: 1px dashed #ffa844;
+    border-top: 1px dashed #ffa844;
+    border-bottom: 1px dashed #ffa844;
+    background-color: #333333;
+}
+
+.job-entry .dates {
+    font-style: italic;
+    color: white;
+}
+
+.job-entry .location {
+    font-size: 1em;
+    color: #ffa844;
+    /* Subdued color for the location text */
+    margin-top: -5px;
+    /* Adjust margin as needed for visual appeal */
+}
+
+@keyframes blink {
+
+    0%,
+    50% {
+        opacity: 1;
+    }
+
+    50.1%,
+    100% {
+        opacity: 0;
+    }
+}
+
+.cursor {
+    display: inline-block;
+    width: 18px;
+    height: 30px;
+    background-color: #4ee940;
+    margin-left: 5px;
+    animation: blink 1s step-end infinite;
+}

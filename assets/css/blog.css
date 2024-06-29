@@ -20,6 +20,7 @@ body {
     border: 2px dashed #ccc;
     padding: 20px;
     margin-bottom: 3.5%;
+    background-color: #333333;
 }
 
 .post-summary h2 a {
