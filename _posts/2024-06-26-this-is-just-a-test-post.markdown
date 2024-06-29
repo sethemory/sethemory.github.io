@@ -1,32 +1,15 @@
 ---
 layout: post
-title:  "Welcome to Test!"
-date:   2024-06-26 00:22:30 -0400
-categories: jekyll update
+title: "Deciding to get back into Archery"
+date: 2024-06-26
+categories: Archery Pictures
+excerpt: "I decided I wanted to pick up archery again. I used to shoot a few years ago and also took a class back in college. I figured it could be something productive I could do in my free time. Today I picked up the bow and went out back to start shooting."
 images:
-  - path: \assets\images\6-22-24\set.jpg
-    description: "Description for Image 1"
   - path: \assets\images\6-22-24\shooting.jpg
-    description: "Description for Image 2"
+    description: "Me holding the compound bow with it drawn back ready to shoot."
+  - path: \assets\images\6-22-24\shooting-back.jpg
+    description: "Me from behind holding the compound bow with it drawn back ready to shoot and you can see the target in the background."
+  - path: \assets\images\6-22-24\set.jpg
+    description: "A close up of the target I shot at after my first set."
 ---
-You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.Jekyll requires blog post files to be named according to the following format:
-
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+I decided I wanted to pick up archery again. I used to shoot a few years ago and also took a class back in college. I figured it could be something productive I could do in my free time. Today I picked up the bow and went out back to start shooting. In hindsight it probably was not the best day to start this up but it's what I was wanting to do. I say this because it was around 100 on this Saturday. I went out about 15ft and dropped the target on the ground. This first round I was not super concerned about accuracy because I needed to make sure that the bow is sighted in. It hasn't been used in awhile. Even so, the first round was pretty good, other than the one arrow that was different from the rest of the set. I don’t think I will be shooting with that arrow in the future just to keep things consistent. I also wanted to shoot at a target that was just sitting on the ground so I went and got a wooden stool my dad made years ago with some spare wood and strapped it on top. I then shot another round while I was sweating like crazy from the heat and the gnats were swarming me like crazy. At that point accuracy was not a big priority and I just wanted to finish the set. I think next time I am going to try and shoot out front and see if the gnat problem is any better there. After the two sets of shots I decided I was getting too annoyed with the heat and the bugs so I called it a day. Even though I didn’t shoot as much as I wanted, it was a good start.
