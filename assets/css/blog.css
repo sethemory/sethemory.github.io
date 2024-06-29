@@ -19,12 +19,16 @@ body {
     width: 70%;
     border: 2px dashed #ccc;
     padding: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 3.5%;
 }
 
 .post-summary h2 a {
     color: #4ee940;
     text-decoration: none;
+}
+
+.post-summary h2 a:hover {
+    color: #ffa844;
 }
 
 .post-summary p.post-date {

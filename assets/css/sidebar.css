@@ -1,68 +1,83 @@
 .sidebar {
-    position: fixed;
-    width: 250px;
-    outline: 2px dashed #ffa844;
-    color: #4ee940;
-    background-color: black;
-    padding: 15px;
-    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    top: 0;
-    bottom: 0;
-    left: 0;
+  position: fixed;
+  width: 250px;
+  outline: 2px dashed #ffa844;
+  color: #4ee940;
+  background-color: black;
+  padding: 15px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  bottom: 0;
+  left: 0;
 }
 
 .sidebar ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    width: 100%;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
 }
 
 .sidebar ul li {
-    margin: 10px 0;
-    text-align: center;
+  margin: 10px 0;
+  text-align: center;
 }
 
 .sidebar ul li a {
-    color: #4ee940;
-    text-decoration: none;
-    display: block;
-    width: 100%;
+  color: #4ee940;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+}
+
+.sidebar ul li a:hover {
+  color: #ffa844;
 }
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
-    .sidebar {
-      position: fixed; /* Remove fixed positioning */
-      width: 100%; /* Full width */
-      height: 10%; /* Auto height */
-      display: flex; /* Make sidebar horizontal */
-      flex-direction: row; /* Align items in a row */
-      justify-content: space-around; /* Distribute space around items */
-      align-items: center; /* Align items vertically */
-      padding: 10px 0; /* Adjust padding */
-    }
-  
-    .sidebar ul {
-      display: flex;
-      flex-direction: row;
-      padding: 0;
-      margin: 0;
-      list-style-type: none;
-      width: 100%;
-      justify-content: space-around; /* Evenly space the links */
-    }
-  
-    .sidebar ul li {
-      margin: 0; /* Remove margins */
-    }
-  
-    .main-content {
-      margin-left: 0; /* Remove the margin offset */
-      padding: 10px;
-    }
+  .sidebar {
+    position: fixed;
+    /* Remove fixed positioning */
+    width: 100%;
+    /* Full width */
+    height: 10%;
+    /* Auto height */
+    display: flex;
+    /* Make sidebar horizontal */
+    flex-direction: row;
+    /* Align items in a row */
+    justify-content: space-around;
+    /* Distribute space around items */
+    align-items: center;
+    /* Align items vertically */
+    padding: 10px 0;
+    /* Adjust padding */
   }
+
+  .sidebar ul {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    width: 100%;
+    justify-content: space-around;
+    /* Evenly space the links */
+  }
+
+  .sidebar ul li {
+    margin: 0;
+    /* Remove margins */
+  }
+
+  .main-content {
+    margin-left: 0;
+    /* Remove the margin offset */
+    padding: 10px;
+  }
+}

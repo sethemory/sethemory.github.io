@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,9 +8,10 @@
   <link rel="stylesheet" href="{{ '/assets/css/landing.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/sidebar.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/blog.css' | relative_url }}">
-  
+
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&display=swap">
 </head>
+
 <body>
   <div class="sidebar">
     <h1>Seth Emory</h1>
@@ -24,13 +26,14 @@
   <div class="main-content">
     <h1>Blog Posts<span class="cursor"></span></h1>
     {% for post in site.posts %}
-      <div class="post-summary">
-        <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-        <p class="post-date">{{ post.date | date: "%B %d, %Y" }}</p>
-        <p class="post-categories">Categories: {{ post.categories | join: ", " }}</p>
-        <p>{{ post.excerpt | strip_html }}</p>
-      </div>
+    <div class="post-summary">
+      <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+      <p class="post-date">{{ post.date | date: "%B %d, %Y" }}</p>
+      <p class="post-categories">Categories: {{ post.categories | join: ", " }}</p>
+      <p>{{ post.excerpt | strip_html }}</p>
+    </div>
     {% endfor %}
   </div>
 </body>
+
 </html>
