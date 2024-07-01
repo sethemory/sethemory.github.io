@@ -4,6 +4,8 @@ title: "My Amazing Project"
 date: 2021-08-01
 end_date: 2022-08-01
 categories: [Web Development, Open Source]
+description: This is just some dummy text to show how there can be a description that will be displayed on the main project page to give a little info about the project to the user
+order: 1
 ---
 
 Here is the detailed description of my project. You can write extensive text here to explain the project background, objectives, and outcomes.

@@ -9,12 +9,12 @@ body {
 
 .projects-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 25px;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-gap: 30px;
     padding: 100px;
     margin: 0 auto;
     max-width: 1200px;
-    margin-left: 290px;
+    margin-left: 260px;
 }
 
 .projects-grid a.project-tile {
@@ -25,6 +25,7 @@ body {
 }
 
 .project-tile {
+    height: 200px;
     border: 2px dashed #ccc;
     padding: 15px;
     background-color: #333333;
