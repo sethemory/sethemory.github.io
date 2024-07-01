@@ -25,11 +25,12 @@ body {
 
 .post-summary h2 a {
     color: #4ee940;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .post-summary h2 a:hover {
     color: #ffa844;
+    text-decoration: underline;
 }
 
 .post-summary p.post-date {

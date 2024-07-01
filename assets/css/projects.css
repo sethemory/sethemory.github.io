@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    font-family: 'IBM Plex Mono', monospace;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+    padding: 100px;
+    margin: 0 auto;
+    max-width: 1200px;
+    margin-left: 290px;
+}
+
+.projects-grid a.project-tile {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-tile {
+    border: 2px dashed #ccc;
+    padding: 15px;
+    background-color: #333333;
+    transition: transform 0.3s ease;
+}
+
+.project-tile:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.project-tile h2 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    color: #4ee940;
+}
+
+.project-tile .categories,
+.project-tile .project-description {
+    font-size: 0.9em;
+    color: #4ee940;
+    margin-bottom: 5px;
+    /* Adds spacing below each element for clarity */
+}
+
+.project-tile .categories {
+    color: #ffa844;
+}
+
+.project-description {
+    font-style: italic;
+    /* Optional: italicize the description for emphasis */
+}

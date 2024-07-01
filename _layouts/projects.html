@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/sidebar.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/projects.css' | relative_url }}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&display=swap">
+</head>
+
+<body>
+    <div class="sidebar">
+        <h1>Seth Emory</h1>
+        <ul>
+            <li><a href="{{ '/' | relative_url }}">Home</a></li>
+            <li><a href="{{ '/projects/' | relative_url }}">Projects</a></li>
+            <li><a href="{{ '/work/' | relative_url }}">Work</a></li>
+            <li><a href="{{ '/blog/' | relative_url }}">Blog</a></li>
+            <li><a href="{{ '/about/' | relative_url }}">About</a></li>
+            <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
+        </ul>
+    </div>
+    <div class="projects-grid">
+        {% for project in site.projects %}
+          <a href="{{ project.url }}" class="project-tile"> <!-- Entire tile is a link -->
+            <div>
+              <h2>{{ project.title }}</h2>
+              <p class="categories">Categories: {{ project.categories | join: ", " }}</p>
+              <p class="project-description">{{ project.description }}</p>
+            </div>
+          </a>
+        {% endfor %}
+      </div>
+</body>
+
+</html>
