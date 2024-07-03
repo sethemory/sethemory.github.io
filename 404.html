@@ -1,25 +1,54 @@
----
-permalink: /404.html
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
 
-<style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 Page Not Found</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <style>
+        body {
+            text-align: center;
+            padding-top: 50px;
+            font-family: Arial, sans-serif;
+            background-color: black;
+            color: #4ee940;
+        }
 
-<div class="container">
-  <h1>404</h1>
+        .sad-face {
+            font-size: 72px;
+            /* Makes the sad face much larger */
+            line-height: 100px;
+            /* Adjust line height to vertically center emoticon */
+        }
 
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
-</div>
+        @keyframes blink {
+
+            0%,
+            50% {
+                opacity: 1;
+            }
+
+            50.1%,
+            100% {
+                opacity: 0;
+            }
+        }
+
+        .cursor {
+            display: inline-block;
+            width: 15px;
+            height: 35px;
+            background-color: #4ee940;
+            margin-left: 5px;
+            animation: blink 1s step-end infinite;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>404 Page Not Found<span class="cursor"></span></h1>
+    <p class="sad-face">:[</p>
+</body>
+
+</html>

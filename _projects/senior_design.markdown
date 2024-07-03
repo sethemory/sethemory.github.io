@@ -48,4 +48,4 @@ This system not only provides a robust framework for data configuration but also
 <iframe src="\assets\documents\Senior Design\LAS_FPR.pdf" class="embedded-pdf" allowfullscreen></iframe>
 
 ### Here is the User Guide that was created for the application
-<iframe src="\assets\documents\Senior Design\LAS1_IPR.pdf" class="embedded-pdf" allowfullscreen></iframe>
+<iframe src="\assets\documents\Senior Design\User_Guide.pdf" class="embedded-pdf" allowfullscreen></iframe>

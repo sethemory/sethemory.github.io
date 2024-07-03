@@ -1,0 +1,16 @@
+body {
+    text-align: center;
+    padding-top: 50px;
+    font-family: Arial, sans-serif;
+}
+
+.sad-face {
+    font-size: 72px;
+    /* Makes the sad face much larger */
+    line-height: 100px;
+    /* Adjust line height to vertically center emoticon */
+}
+
+h1 {
+    color: #cc0000;
+}
