@@ -26,3 +26,5 @@ print("Hello, world!")
 - **Content Flexibility**: Add several types of content to your Markdown files to test the layout's capability to handle complex and varied data types.
 
 This setup will allow you to seamlessly integrate text, images with captions, and code snippets within your project pages, directly through Markdown, providing maximum flexibility and ease of content management.
+
+<iframe src="\assets\documents\Senior Design\LAS1_IPR.pdf" class="embedded-pdf" allowfullscreen></iframe>
