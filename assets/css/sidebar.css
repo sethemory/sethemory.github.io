@@ -42,21 +42,13 @@
 @media (max-width: 768px) {
   .sidebar {
     position: fixed;
-    /* Remove fixed positioning */
     width: 100%;
-    /* Full width */
     height: 10%;
-    /* Auto height */
     display: flex;
-    /* Make sidebar horizontal */
     flex-direction: row;
-    /* Align items in a row */
     justify-content: space-around;
-    /* Distribute space around items */
     align-items: center;
-    /* Align items vertically */
     padding: 10px 0;
-    /* Adjust padding */
   }
 
   .sidebar ul {
@@ -80,4 +72,21 @@
     /* Remove the margin offset */
     padding: 10px;
   }
+}
+
+.sidebar .social-media {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.sidebar .social-media a {
+  color: #4ee940;
+  font-size: 24px;
+  margin: 0 10px;
+}
+
+.sidebar .social-media a:hover {
+  color: #ffa844;
 }

@@ -3,9 +3,9 @@ layout: project
 title: "Data Prioritization Manager"
 date: 2023-01-10
 end_date: 2023-05-04
-categories: [Software Development, Web Application, React]
+categories: [Software Development, Web Application, Front-End, React]
 description: This project is a web application created for LAS at NC State, using Django, React.js, and PostgreSQL to improve sorting efficiency
-order: 2
+order: 3
 ---
 
 ## Project Overview
