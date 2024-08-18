@@ -74,3 +74,26 @@ body {
   border: 2px dashed #4ee940;
   color: #ffa844;
 }
+
+/* Mobile Adjustments */
+@media (max-width: 768px) {
+  .main-content {
+    margin-left: 27%;
+    margin-right: 3%;
+    padding: 10px;
+    font-size: medium;
+  }
+
+  .feature-boxes {
+    flex-direction: column;
+    width: 45%;
+    align-items: center
+    ;
+  }
+
+  .feature-box {
+    width: 100%;
+    margin: 10px 0;
+    padding: 15px;
+  }
+}

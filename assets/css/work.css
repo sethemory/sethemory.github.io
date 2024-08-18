@@ -60,3 +60,30 @@ body {
     margin-left: 5px;
     animation: blink 1s step-end infinite;
 }
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+    .work-container {
+        margin-left: 26%;
+        margin-right: 2%;
+        padding: 10px;
+        font-size: .8em;
+    }
+
+    .job-entry {
+        padding: 15px;
+        border-left: 3px solid #4ee940;
+        border-right: 1px dashed #ffa844;
+        border-top: 1px dashed #ffa844;
+        border-bottom: 1px dashed #ffa844;
+    }
+
+    .job-entry .location {
+        font-size: 0.9em;
+    }
+
+    .cursor {
+        width: 14px;
+        height: 24px;
+    }
+}

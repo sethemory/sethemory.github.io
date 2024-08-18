@@ -74,3 +74,34 @@ hr {
 a {
     color: #ffa844;
 }
+
+/* Mobile Adjustments */
+@media (max-width: 768px) {
+    .project-content {
+        margin: 20px; /* Adjust margin for smaller screens */
+        padding: 10px; /* Adjust padding for smaller screens */
+        margin-left: 25%; /* Remove left margin for mobile */
+        font-size: .8em;
+    }
+
+    h1 {
+        font-size: 1.5em; /* Adjust font size for smaller screens */
+    }
+
+    .project-content img {
+        max-width: 100%; /* Ensure images are responsive */
+        margin: 10px 0; /* Adjust margin for smaller screens */
+    }
+
+    .project-meta {
+        font-size: 0.9em; /* Slightly smaller font size for meta info */
+    }
+
+    pre {
+        padding: 10px; /* Adjust padding for code snippets */
+    }
+
+    .embedded-pdf {
+        height: 300px; /* Adjust height for embedded PDFs */
+    }
+}

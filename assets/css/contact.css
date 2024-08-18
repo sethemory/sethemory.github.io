@@ -85,3 +85,36 @@ body {
         opacity: 0;
     }
 }
+
+/* Responsive adjustments for screens less than 768px wide */
+@media (max-width: 768px) {
+    body {
+        align-items: center; /* Ensure vertical centering on mobile */
+        justify-content: center; /* Ensure horizontal centering on mobile */
+    }
+
+    .contact-container {
+        margin-left: 28%; /* Remove margin for smaller screens */
+        margin-right: 2%;
+        padding: 10px; /* Add padding for better spacing */
+
+    }
+
+    .contact-info p,
+    .social-links a {
+        font-size: 14px; /* Slightly smaller font size for mobile */
+    }
+
+    .social-links {
+        margin-top: 10px; /* Space between contact info and social links */
+    }
+
+    .social-links li {
+        display: block; /* Stack social links vertically */
+        margin: 5px 0; /* Space between social links */
+    }
+
+    .title-divider {
+        width: 60%; /* Increase width for better mobile alignment */
+    }
+}

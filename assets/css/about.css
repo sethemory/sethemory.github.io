@@ -45,3 +45,15 @@ hr {
     margin-top: 0%;
     margin-bottom: 4%;
 }
+
+@media (max-width: 768px) {
+    .about-container {
+        margin-left: 25%;
+        max-width: 90%;
+        font-size: .8em;
+    }
+
+    img {
+        width: 40%;
+    }
+}

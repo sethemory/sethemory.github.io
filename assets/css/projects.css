@@ -59,3 +59,29 @@ body {
     font-style: italic;
     /* Optional: italicize the description for emphasis */
 }
+
+/* Mobile Adjustments */
+@media (max-width: 768px) {
+    .projects-grid {
+        padding: 15px; /* Adjust padding for smaller screens */
+        grid-template-columns: 1fr; /* Single column layout */
+    }
+
+    .project-tile {
+        height: auto; /* Allow tiles to adjust height based on content */
+    }
+
+    .project-tile h2 {
+        font-size: 1.1em; /* Slightly smaller header size */
+    }
+
+    .project-tile .categories,
+    .project-tile .project-description {
+        font-size: 0.8em; /* Smaller font size for mobile */
+    }
+
+    .projects-grid {
+        margin-left: 26%;
+        margin-right: 3%;
+    }
+}
