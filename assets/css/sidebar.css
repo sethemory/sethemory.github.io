@@ -58,6 +58,7 @@
 /* Mobile Adjustments */
 @media (max-width: 768px) {
   .sidebar {
+    position: fixed;
     width: 20%;
     padding: 10px;
     box-shadow: none; /* Remove shadow for a cleaner look on small screens */
@@ -67,7 +68,7 @@
   }
 
   .sidebar h1 {
-    font-size: 1.7rem; /* Adjust header size for smaller screens */
+    font-size: 1.4rem; /* Adjust header size for smaller screens */
     margin-bottom: 15px;
   }
 
